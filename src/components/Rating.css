@@ -1,0 +1,29 @@
+.star-rating {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.star {
+  font-size: 2rem;
+  position: relative;
+  color: #ddd;
+  transition: color 0.3s;
+}
+
+.star.filled {
+  color: #f5c518;
+}
+
+.star.half-filled {
+  color: #ddd;
+}
+
+.star.half-filled::before {
+  content: "★";
+  position: absolute;
+  left: 0;
+  width: 50%;
+  overflow: hidden;
+  color: #f5c518;
+}
