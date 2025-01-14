@@ -1,6 +1,5 @@
 import './App.css';
-import Carousel from './components/Carousel';
-import StarRating from './components/Rating';
+import PasswordGenerator from './components/PasswordGenerator';
 
 function App() {
   const images = [
@@ -12,7 +11,8 @@ function App() {
   return (
     <div style={{textAlign: "center", marginTop: "200px"}}>
       {/* <Carousel images={images} width="300px" height="200px" /> */}
-      <StarRating initialRating={3.9}></StarRating>
+      {/* <StarRating initialRating={3.9}></StarRating> */}
+      <PasswordGenerator />
     </div>
   );
 }
