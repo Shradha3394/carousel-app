@@ -1,4 +1,5 @@
 import './App.css';
+import CurrencyConvertorRenderer from './components/CurrencyConvertorRenderer';
 import PasswordGenerator from './components/PasswordGenerator';
 
 function App() {
@@ -12,7 +13,7 @@ function App() {
     <div style={{textAlign: "center", marginTop: "200px"}}>
       {/* <Carousel images={images} width="300px" height="200px" /> */}
       {/* <StarRating initialRating={3.9}></StarRating> */}
-      <PasswordGenerator />
+      <CurrencyConvertorRenderer />
     </div>
   );
 }

@@ -35,7 +35,7 @@ const PasswordGenerator = () => {
       <input value={allowSpecial} id="allow-special" type="checkbox"
         onChange={(e) => setAllowSpecial(preVal => !preVal)}
       />
-      <label labelfor="allow-special">Allow Special Characters</label>
+      <label htmlFor="allow-special">Allow Special Characters</label>
     </div>
   </>)
 }
